@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "teamtracker",
+  "version": "${version}",
+  "name": "Team Tracker",
+  "description": "Track teammates: glow outline, HUD arrows, and shareable location pings.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.teamtracker.TeamTrackerClient"] },
+  "mixins": ["teamtracker.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}

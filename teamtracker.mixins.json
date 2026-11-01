@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.teamtracker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["EntityMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
